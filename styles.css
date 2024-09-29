@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .start-btn, .restart-btn, .choiceButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .start-btn:hover, .restart-btn:hover, .choiceButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .choices {
+    margin-top: 20px;
+  }
+  
+  .choiceButton {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .result-container {
+    display: none;
+  }
+  
